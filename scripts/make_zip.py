@@ -8,7 +8,7 @@ import zipfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(line_buffering=True)  # show progress live, also when piped to tee
-from common.ptb import ROOT_DIR
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 NAME = "NLP_ASSIGNMENT_GROUP_9"
 WITH_CKPT = "--with-checkpoints" in sys.argv

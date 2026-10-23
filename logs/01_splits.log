@@ -1,4 +1,4 @@
-saved /home/claude/NLP_ASSIGNMENT_GROUP_9/data/splits/partition_splits_seed42.json
+saved /home/disciple/NLP_ASSIGNMENT_GROUP_9/data/splits/partition_splits_seed42.json
 Partition A: total=1305 train=1044 validation=130 test=131
 Partition B: total=1305 train=1044 validation=130 test=131
 Partition C: total=1304 train=1043 validation=130 test=131
