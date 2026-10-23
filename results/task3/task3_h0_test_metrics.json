@@ -1,0 +1,273 @@
+{
+  "task": "task3",
+  "markovization": 0,
+  "args": {
+    "horz": 0,
+    "epochs": 40,
+    "batch_size": 8,
+    "lr": 0.001,
+    "beta1": 0.75,
+    "beta2": 0.999,
+    "max_grad_norm": 3.0,
+    "state_dim": 256,
+    "rule_hidden": 256,
+    "rule_layers": 1,
+    "min_word_count": 2,
+    "prune": 0.001,
+    "seed": 3435,
+    "device": "auto"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_nll_per_word": 9.9991044529532,
+      "val_nll_per_word": 7.0248373527900725
+    },
+    {
+      "epoch": 2,
+      "train_nll_per_word": 6.992503934529582,
+      "val_nll_per_word": 6.389903770154916
+    },
+    {
+      "epoch": 3,
+      "train_nll_per_word": 6.623070217719967,
+      "val_nll_per_word": 6.239545254702814
+    },
+    {
+      "epoch": 4,
+      "train_nll_per_word": 6.4971657078311855,
+      "val_nll_per_word": 6.217339032366424
+    },
+    {
+      "epoch": 5,
+      "train_nll_per_word": 6.430324347986725,
+      "val_nll_per_word": 6.161002830580146
+    },
+    {
+      "epoch": 6,
+      "train_nll_per_word": 6.387368013736735,
+      "val_nll_per_word": 6.148738218265887
+    },
+    {
+      "epoch": 7,
+      "train_nll_per_word": 6.357628921596258,
+      "val_nll_per_word": 6.146633190404679
+    },
+    {
+      "epoch": 8,
+      "train_nll_per_word": 6.336031162844837,
+      "val_nll_per_word": 6.122228081528612
+    },
+    {
+      "epoch": 9,
+      "train_nll_per_word": 6.32068817808261,
+      "val_nll_per_word": 6.124163916772051
+    },
+    {
+      "epoch": 10,
+      "train_nll_per_word": 6.302408563810319,
+      "val_nll_per_word": 6.127567528849194
+    },
+    {
+      "epoch": 11,
+      "train_nll_per_word": 6.29345657279261,
+      "val_nll_per_word": 6.150417177126146
+    },
+    {
+      "epoch": 12,
+      "train_nll_per_word": 6.287837377587051,
+      "val_nll_per_word": 6.107268737156181
+    },
+    {
+      "epoch": 13,
+      "train_nll_per_word": 6.278136474705892,
+      "val_nll_per_word": 6.138151329829276
+    },
+    {
+      "epoch": 14,
+      "train_nll_per_word": 6.2691884457252085,
+      "val_nll_per_word": 6.130438863420803
+    },
+    {
+      "epoch": 15,
+      "train_nll_per_word": 6.268568137192071,
+      "val_nll_per_word": 6.129637977197281
+    },
+    {
+      "epoch": 16,
+      "train_nll_per_word": 6.261218677949802,
+      "val_nll_per_word": 6.131316318566235
+    },
+    {
+      "epoch": 17,
+      "train_nll_per_word": 6.252872095600044,
+      "val_nll_per_word": 6.141790823585204
+    },
+    {
+      "epoch": 18,
+      "train_nll_per_word": 6.249801598944949,
+      "val_nll_per_word": 6.148475166969649
+    },
+    {
+      "epoch": 19,
+      "train_nll_per_word": 6.244273490777575,
+      "val_nll_per_word": 6.126296114250711
+    },
+    {
+      "epoch": 20,
+      "train_nll_per_word": 6.245702305809032,
+      "val_nll_per_word": 6.123301898909263
+    },
+    {
+      "epoch": 21,
+      "train_nll_per_word": 6.240891703967403,
+      "val_nll_per_word": 6.132024581093898
+    },
+    {
+      "epoch": 22,
+      "train_nll_per_word": 6.241311380688346,
+      "val_nll_per_word": 6.127749071293076
+    },
+    {
+      "epoch": 23,
+      "train_nll_per_word": 6.233744704334556,
+      "val_nll_per_word": 6.142277406734113
+    },
+    {
+      "epoch": 24,
+      "train_nll_per_word": 6.233197213312599,
+      "val_nll_per_word": 6.156764370257667
+    },
+    {
+      "epoch": 25,
+      "train_nll_per_word": 6.229186352987868,
+      "val_nll_per_word": 6.1426269068131525
+    },
+    {
+      "epoch": 26,
+      "train_nll_per_word": 6.227724363738356,
+      "val_nll_per_word": 6.13491567538729
+    },
+    {
+      "epoch": 27,
+      "train_nll_per_word": 6.2271045643342156,
+      "val_nll_per_word": 6.13134719313152
+    },
+    {
+      "epoch": 28,
+      "train_nll_per_word": 6.226220208473605,
+      "val_nll_per_word": 6.138989883022447
+    },
+    {
+      "epoch": 29,
+      "train_nll_per_word": 6.220555238710559,
+      "val_nll_per_word": 6.148406625434714
+    },
+    {
+      "epoch": 30,
+      "train_nll_per_word": 6.2233479777492775,
+      "val_nll_per_word": 6.15385660369902
+    },
+    {
+      "epoch": 31,
+      "train_nll_per_word": 6.220666056307061,
+      "val_nll_per_word": 6.142459566669301
+    },
+    {
+      "epoch": 32,
+      "train_nll_per_word": 6.21802917106464,
+      "val_nll_per_word": 6.118429275015807
+    },
+    {
+      "epoch": 33,
+      "train_nll_per_word": 6.215772007981599,
+      "val_nll_per_word": 6.135226891005375
+    },
+    {
+      "epoch": 34,
+      "train_nll_per_word": 6.217596828855057,
+      "val_nll_per_word": 6.153823259168511
+    },
+    {
+      "epoch": 35,
+      "train_nll_per_word": 6.213759278694993,
+      "val_nll_per_word": 6.137482586745179
+    },
+    {
+      "epoch": 36,
+      "train_nll_per_word": 6.212854858084756,
+      "val_nll_per_word": 6.1427652248656335
+    },
+    {
+      "epoch": 37,
+      "train_nll_per_word": 6.213125777447217,
+      "val_nll_per_word": 6.153195888001897
+    },
+    {
+      "epoch": 38,
+      "train_nll_per_word": 6.211375231496853,
+      "val_nll_per_word": 6.126824686808409
+    },
+    {
+      "epoch": 39,
+      "train_nll_per_word": 6.209928296540278,
+      "val_nll_per_word": 6.145950862511856
+    },
+    {
+      "epoch": 40,
+      "train_nll_per_word": 6.206770627831819,
+      "val_nll_per_word": 6.143178326549163
+    }
+  ],
+  "best_val_nll_per_word": 6.107268737156181,
+  "train_seconds": 99.838627576828,
+  "parse_seconds": 26.22554349899292,
+  "grammar": {
+    "binary": 5175,
+    "lexical": 261580,
+    "root": 183,
+    "symbols": 183,
+    "seen_binary_rules": 1642,
+    "child_pairs": 1068,
+    "nt": 73,
+    "pt": 110
+  },
+  "parse_status": {
+    "ok": 131
+  },
+  "evalb": {
+    "n_sentences": 131,
+    "labeled": {
+      "precision": 67.60259179265658,
+      "recall": 64.56270627062707,
+      "f1": 66.04768938594641
+    },
+    "unlabeled": {
+      "precision": 70.02159827213823,
+      "recall": 66.87293729372938,
+      "f1": 68.41105718506014
+    },
+    "tagging_accuracy": 90.89908256880734,
+    "exact_match": 6.106870229007634,
+    "len_le_40": {
+      "n_sentences": 128,
+      "labeled": {
+        "precision": 67.65249537892791,
+        "recall": 64.66431095406361,
+        "f1": 66.12466124661248
+      },
+      "unlabeled": {
+        "precision": 70.14787430683919,
+        "recall": 67.04946996466431,
+        "f1": 68.56368563685636
+      }
+    }
+  },
+  "compare": {
+    "n_sentences": 131,
+    "corpus_f1": 65.3759820426487,
+    "sentence_f1": 67.46295816317281,
+    "precision": 66.49543378995433,
+    "recall": 64.29359823399558
+  }
+}

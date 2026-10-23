@@ -1,0 +1,8 @@
+[task1 h0] grammar: {'binary': 1642, 'lexical': 3696, 'root': 8, 'symbols': 183, 'rule_types_total': 5290, 'rule_types_add1_smoothed': 4099, 'train_trees': 1043, 'known_words': 2315}
+  parsed 20/131  (2s)
+  parsed 40/131  (3s)
+  parsed 60/131  (5s)
+  parsed 80/131  (6s)
+  parsed 100/131  (7s)
+  parsed 120/131  (9s)
+[task1 h0] test: labeled F1 64.34 | unlabeled F1 67.26 | tag acc 90.90 | compare corpus F1 64.38 | parse status {'ok': 128, 'backoff': 3}

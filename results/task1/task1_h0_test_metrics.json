@@ -1,0 +1,55 @@
+{
+  "task": "task1",
+  "markovization": 0,
+  "split": "test",
+  "grammar": {
+    "binary": 1642,
+    "lexical": 3696,
+    "root": 8,
+    "symbols": 183,
+    "rule_types_total": 5290,
+    "rule_types_add1_smoothed": 4099,
+    "train_trees": 1043,
+    "known_words": 2315
+  },
+  "parse_status": {
+    "ok": 128,
+    "backoff": 3
+  },
+  "parse_seconds": 9.749455213546753,
+  "evalb": {
+    "n_sentences": 131,
+    "labeled": {
+      "precision": 65.09075559307725,
+      "recall": 63.613861386138616,
+      "f1": 64.34383475902357
+    },
+    "unlabeled": {
+      "precision": 68.0455888560574,
+      "recall": 66.5016501650165,
+      "f1": 67.264761109952
+    },
+    "tagging_accuracy": 90.89908256880734,
+    "exact_match": 6.870229007633588,
+    "len_le_40": {
+      "n_sentences": 128,
+      "labeled": {
+        "precision": 65.44549977385799,
+        "recall": 63.91342756183745,
+        "f1": 64.67039106145252
+      },
+      "unlabeled": {
+        "precision": 68.475802804161,
+        "recall": 66.87279151943463,
+        "f1": 67.66480446927375
+      }
+    }
+  },
+  "compare": {
+    "n_sentences": 131,
+    "corpus_f1": 64.38318017265387,
+    "sentence_f1": 66.89181671233511,
+    "precision": 64.98032602585722,
+    "recall": 63.796909492273734
+  }
+}

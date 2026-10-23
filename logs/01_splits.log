@@ -1,0 +1,8 @@
+saved /home/claude/NLP_ASSIGNMENT_GROUP_9/data/splits/partition_splits_seed42.json
+Partition A: total=1305 train=1044 validation=130 test=131
+Partition B: total=1305 train=1044 validation=130 test=131
+Partition C: total=1304 train=1043 validation=130 test=131
+Partition C/train: 1043 trees, avg len 24.3, max len 249
+Partition C/validation: 130 trees, avg len 24.3, max len 58
+Partition C/test: 131 trees, avg len 23.6, max len 74
+example cleaned tree: (S (S (ADVP (IN Besides)) (PRN (, ,) (S (NP (NNP Eggers)) (VP (VBZ says))) (, ,)) (NP (NN grain) (NNS elevators)) (VP (VBP are) (PP (IN worth) (S (VP (VBG preserving) (PP (IN for) (NP (JJ aesthetic) (

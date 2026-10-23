@@ -1,0 +1,50 @@
+[task3 h0] device=cpu symbols=183 NT=73 PT=110 child-pairs=1068 vocab=2378 NT&PT overlap=0
+[task3 h0] validation rule occurrences not covered by the inventory: 59
+[task3 h0] epoch 1/40 train nll/word 9.9991 val nll/word 7.0248 *saved*
+[task3 h0] epoch 2/40 train nll/word 6.9925 val nll/word 6.3899 *saved*
+[task3 h0] epoch 3/40 train nll/word 6.6231 val nll/word 6.2395 *saved*
+[task3 h0] epoch 4/40 train nll/word 6.4972 val nll/word 6.2173 *saved*
+[task3 h0] epoch 5/40 train nll/word 6.4303 val nll/word 6.1610 *saved*
+[task3 h0] epoch 6/40 train nll/word 6.3874 val nll/word 6.1487 *saved*
+[task3 h0] epoch 7/40 train nll/word 6.3576 val nll/word 6.1466 *saved*
+[task3 h0] epoch 8/40 train nll/word 6.3360 val nll/word 6.1222 *saved*
+[task3 h0] epoch 9/40 train nll/word 6.3207 val nll/word 6.1242 
+[task3 h0] epoch 10/40 train nll/word 6.3024 val nll/word 6.1276 
+[task3 h0] epoch 11/40 train nll/word 6.2935 val nll/word 6.1504 
+[task3 h0] epoch 12/40 train nll/word 6.2878 val nll/word 6.1073 *saved*
+[task3 h0] epoch 13/40 train nll/word 6.2781 val nll/word 6.1382 
+[task3 h0] epoch 14/40 train nll/word 6.2692 val nll/word 6.1304 
+[task3 h0] epoch 15/40 train nll/word 6.2686 val nll/word 6.1296 
+[task3 h0] epoch 16/40 train nll/word 6.2612 val nll/word 6.1313 
+[task3 h0] epoch 17/40 train nll/word 6.2529 val nll/word 6.1418 
+[task3 h0] epoch 18/40 train nll/word 6.2498 val nll/word 6.1485 
+[task3 h0] epoch 19/40 train nll/word 6.2443 val nll/word 6.1263 
+[task3 h0] epoch 20/40 train nll/word 6.2457 val nll/word 6.1233 
+[task3 h0] epoch 21/40 train nll/word 6.2409 val nll/word 6.1320 
+[task3 h0] epoch 22/40 train nll/word 6.2413 val nll/word 6.1277 
+[task3 h0] epoch 23/40 train nll/word 6.2337 val nll/word 6.1423 
+[task3 h0] epoch 24/40 train nll/word 6.2332 val nll/word 6.1568 
+[task3 h0] epoch 25/40 train nll/word 6.2292 val nll/word 6.1426 
+[task3 h0] epoch 26/40 train nll/word 6.2277 val nll/word 6.1349 
+[task3 h0] epoch 27/40 train nll/word 6.2271 val nll/word 6.1313 
+[task3 h0] epoch 28/40 train nll/word 6.2262 val nll/word 6.1390 
+[task3 h0] epoch 29/40 train nll/word 6.2206 val nll/word 6.1484 
+[task3 h0] epoch 30/40 train nll/word 6.2233 val nll/word 6.1539 
+[task3 h0] epoch 31/40 train nll/word 6.2207 val nll/word 6.1425 
+[task3 h0] epoch 32/40 train nll/word 6.2180 val nll/word 6.1184 
+[task3 h0] epoch 33/40 train nll/word 6.2158 val nll/word 6.1352 
+[task3 h0] epoch 34/40 train nll/word 6.2176 val nll/word 6.1538 
+[task3 h0] epoch 35/40 train nll/word 6.2138 val nll/word 6.1375 
+[task3 h0] epoch 36/40 train nll/word 6.2129 val nll/word 6.1428 
+[task3 h0] epoch 37/40 train nll/word 6.2131 val nll/word 6.1532 
+[task3 h0] epoch 38/40 train nll/word 6.2114 val nll/word 6.1268 
+[task3 h0] epoch 39/40 train nll/word 6.2099 val nll/word 6.1460 
+[task3 h0] epoch 40/40 train nll/word 6.2068 val nll/word 6.1432 
+[task3 h0] decode grammar: {'binary': 5175, 'lexical': 261580, 'root': 183, 'symbols': 183, 'seen_binary_rules': 1642, 'child_pairs': 1068, 'nt': 73, 'pt': 110}
+  parsed 20/131 (7s)
+  parsed 40/131 (10s)
+  parsed 60/131 (13s)
+  parsed 80/131 (17s)
+  parsed 100/131 (20s)
+  parsed 120/131 (24s)
+[task3 h0] test: labeled F1 66.05 | unlabeled F1 68.41 | tag acc 90.90 | compare corpus F1 65.38 | parse status {'ok': 131}

@@ -1,0 +1,11 @@
+wrote REPORT.md and results/RESULTS.md
+| System | Labeled P | Labeled R | **Labeled F1** | Unlabeled F1 | POS acc | Compare corpus F1 | Compare sentence F1 |
+|---|---|---|---|---|---|---|---|
+| Task 1: count PCFG + CKY, h=0 (main) | 65.09 | 63.61 | **64.34** | 67.26 | 90.90 | 64.38 | 66.89 |
+| Task 1: count PCFG + CKY, h=1 (ablation) | 70.16 | 66.83 | **68.46** | 71.24 | 91.01 | 69.11 | 71.53 |
+| Task 3: supervised neural PCFG, h=0 | 67.60 | 64.56 | **66.05** | 68.41 | 90.90 | 65.38 | 67.46 |
+| Task 3: supervised neural PCFG, h=1 | 70.64 | 66.71 | **68.62** | 70.95 | 91.01 | 68.20 | 70.33 |
+| Task 2: compound PCFG (unsupervised) | - | - | - | - | - | 30.45 | 33.17 |
+| Task 2 ablation: 2-layer ReLU binary-rule MLP | - | - | - | - | - | 4.90 | 5.31 |
+| Baseline: right-branching trees | - | - | - | - | - | 34.64 | 38.07 |
+| Baseline: left-branching trees | - | - | - | - | - | 7.11 | 8.66 |
